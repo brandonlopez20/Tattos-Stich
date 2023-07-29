@@ -1,0 +1,26 @@
+.bg-options,
+.carrusel{
+  background-color: rgb(222, 219, 209);
+}
+
+
+.row {
+  display: flex;
+  justify-content: space-around; /* Ajusta la alineación de las columnas */
+  align-items: center; /* Ajusta la alineación vertical de las imágenes */
+}
+
+.imgOptions {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.imgOptions:hover {
+  transform: scale(1.1); /* Ajusta el valor de escala según desees la animación */
+}
+
+/* Ajusta cualquier otro estilo que necesites para tus títulos o imágenes */
